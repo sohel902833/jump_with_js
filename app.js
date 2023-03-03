@@ -1,35 +1,22 @@
-// const saju = "Md Saju";
-// let name = "Md Sohrab Hossain";
-// let secondName = "Sohel";
+const arr = [1, 2, 3, 4, 5];
+arr.push("asdf");
 
-// //string concat
-
-// let fullName = name + " " + secondName;
-
-// //string concat with template litral
-// let fullSecondName = `${name} asdflja;sdlfj;aslfj  ${secondName}`;
-
-// console.log(fullSecondName);
-
-//if else====>
-
-//loping
-// for (let i = 0; i <= 100; i++) {
-//   console.log("" + i);
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
 // }
 
-//asdf
+//<==========object==========>
 
-switch ("s") {
-  case "s": {
-    console.log("s");
-    break;
-  }
-  case "sk": {
-    console.log("Sk");
-    break;
-  }
-  default: {
-    console.log("Not Matched Anything!1");
-  }
+const obj = {
+  name: "Md Sohrab Hossain",
+  lastName: "Sohel",
+  age: 27,
+  books: ["Book-1", "Book-2", "Book-3"],
+};
+
+console.log(obj.name);
+console.log(obj.lastName);
+
+for (let i = 0; i < obj.books.length; i++) {
+  console.log(obj.books[i]);
 }
